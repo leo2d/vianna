@@ -1,0 +1,26 @@
+.body{
+    background: #2c539e;
+    background: -moz-linear-gradient(-45deg, #2c539e 0%, #2c539e 100%);
+    background: -webkit-linear-gradient(-45deg, #2c539e 0%,#2c539e 100%);
+    background: linear-gradient(135deg, #2c539e 0%,#2c539e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#2c539e',GradientType=1 );
+}
+.image{
+    width: 360px;
+    height: 720px;
+}
+.phone-slide{
+    width: 450px;
+    height: 750px;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    flex-direction: row;
+    /* justify-content: space-around; */
+    display: flex;
+    align-items: center;
+}
